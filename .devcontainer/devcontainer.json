@@ -30,7 +30,10 @@
 				"christian-kohler.path-intellisense",
 				"oderwat.indent-rainbow",
 				"streetsidesoftware.code-spell-checker",
-				"esbenp.prettier-vscode"
+				"esbenp.prettier-vscode",
+				"dsznajder.es7-react-js-snippets",
+				"bourhaouta.tailwindshades",
+				"vscodeshift.mui-snippets"
 			]
 		}
 	}
