@@ -33,7 +33,8 @@
 				"esbenp.prettier-vscode",
 				"dsznajder.es7-react-js-snippets",
 				"bourhaouta.tailwindshades",
-				"vscodeshift.mui-snippets"
+				"vscodeshift.mui-snippets",
+				"dbaeumer.vscode-eslint"
 			]
 		}
 	}
