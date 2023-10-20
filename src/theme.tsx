@@ -1,4 +1,4 @@
-import { createTheme } from "@mui/material/styles";
+import { Theme, createTheme } from "@mui/material/styles";
 import { createContext, useMemo, useState } from "react";
 
 type ThemeMode = "dark" | "light";
@@ -196,7 +196,7 @@ export const ColorModeContext = createContext({
 	toggleColorMode: () => {},
 });
 
-export const useMode = () => {
+export const useMode = (): [Theme, { toggleColorMode: () => void }] => {
 	const [mode, setMode] = useState("dark");
 
 	const colorMode = useMemo(
